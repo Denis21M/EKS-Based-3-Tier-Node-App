@@ -1,0 +1,9 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: ebs-sc  # Custom name for your StorageClass
+provisioner: kubernetes.io/aws-ebs  # Provisioner for EBS volumes
+parameters:
+  type: gp2  # gp2 is a general-purpose SSD in AWS
+reclaimPolicy: Retain  # Ensures the volume is not deleted after PVC deletion
+volumeBindingMode: WaitForFirstConsumer  # Ensures that the volume is bound to a pod only when needed
