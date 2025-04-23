@@ -4,7 +4,7 @@ This project showcases the deployment of a 3-tier application—comprised of a .
 
 ## Overview
 
-![Architecture](./architecture/project1.jpeg)
+![Architecture](./architecture/project2.jpeg)
 
 The architecture includes:
 
