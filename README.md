@@ -2,7 +2,7 @@
 
 This project showcases the deployment of a 3-tier application—comprised of a .NET 7 Web API, a static UI hosted via Nginx, and a PostgreSQL database—on Amazon EKS using Kubernetes manifests. It demonstrates containerization, Kubernetes deployments and services, persistent storage provisioning, and exposing applications to the internet using an Ingress resource.
 
-## verview
+## Overview
 
 ![Architecture](./architecture/project1.jpeg)
 
